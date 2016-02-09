@@ -1,7 +1,7 @@
 android_local_normandy
 ======================
 
-Local Manifest for Cyanogenmod Lollipop 5.1.1 on Nokia X (normandy)
+Local Manifest for Cyanogenmod Lollipop 5.1.1 on Nokia X/XL (normandy)
 
 Getting Started
 ---------------
@@ -19,9 +19,9 @@ To initialize your local repository using the CM12.1 manifest, use commands like
 
     repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
 
-    curl -L -o .repo/local_manifests/normandylp.xml -O -L https://raw.github.com/NormandyLP/local_manifests/master/normandylp.xml
+    curl -L -o .repo/local_manifests/normandylp.xml -O -L https://raw.github.com/NormandyEGY/local_manifests/master/normandylp.xml
  
-    	( or Download: https://github.com/NormandyLP/local_manifests/blob/master/normandylp.xml
+    	( or Download: https://github.com/NormandyEGY/local_manifests/blob/master/normandylp.xml
 		and place it in ~/Android/.repo/local_manifest.xml
 
 Then to sync up:
