@@ -13,7 +13,6 @@ Make a build directory:
 
 	mkdir Android (or whatever name you choose, which will be refered to as Android throughout)
 	cd Android
-	mkdir .repo/local_manifests
 
 To initialize your local repository using the CM12.1 manifest, use commands like these:
 
